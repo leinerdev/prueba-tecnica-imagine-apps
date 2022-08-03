@@ -1,0 +1,99 @@
+header {
+  background-color: #304687;
+  height: 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.image-container {
+  display: grid;
+  place-content: center;
+}
+
+.button-header-container {
+  display: grid;
+  place-content: center;
+}
+
+.header-button {
+  width: 200px;
+  height: 30px;
+  background-color: #304687;
+  color: white;
+  border: .5px solid black;
+}
+
+main {
+  display: grid;
+  place-content: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: auto;
+  height: 700px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+p {
+  text-align: left;
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputs {
+  display: flex;
+  gap: 10px;
+}
+
+label {
+  color: gray;
+}
+
+.checkboxes {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+}
+
+.terms-container {
+  width: 300px;
+}
+
+.terms {
+  font-size: 12px;
+  width: fit-content;
+  color: gray;
+}
+
+.signup-button {
+  height: 50px;
+  background-color: #508d3c;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  width: 200px;
+  border: 1px solid #508d3c88;
+}
+
+#gender {
+  color: black;
+}

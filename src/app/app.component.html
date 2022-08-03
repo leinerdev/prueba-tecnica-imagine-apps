@@ -1,4 +1,54 @@
+<header>
+  <div class="image-container">
+    <img src="/assets/icon.png" alt="" width="180px" />
+  </div>
+  <div class="button-header-container">
+    <button class="header-button">Log Into Existing Account</button>
+  </div>
+</header>
+<br />
+<main>
+  <div class="form-container">
+    <span class="title">Create a New Account</span>
+    <p class="subtitle">It's quick and easy.</p>
 
+    <div class="inputs-container">
+      <div class="inputs">
+        <input placeholder="First name" type="text" pInputText />
+        <input placeholder="Last name" type="text" pInputText />
+      </div>
+      <input placeholder="Mobile number or email" type="text" pInputText />
+      <input placeholder="Password" type="text" pInputText />
+    </div>
+    <br />
+    <label for="date">Birthdate</label>
+    <input placeholder="birthdate" id="date" type="date" pInputText />
+    <br />
+    <label for="gender">Gender</label>
+    <div class="checkboxes">
+      <input type="radio" />
+      <label id="gender">Female</label>
+      <br>
+      <input type="radio" />
+      <label id="gender">Male</label>
+      <br>
+      <input type="radio" />
+      <label id="gender">Custom</label>
+      <br>
+      <br>
+      <i class="pi pi-question-circle"></i>
+    </div>
 
-<button pButton type="button" label="Click" ></button>
-<p-button label="Click" ></p-button>
+    <div class="terms-container">
+      <p class="terms">
+        By clicking Sign Up, you agree to our Terms, Data Policy and Cookies
+        Policy. You may receive SMS Notifications from us and can oot out anv
+        time.
+      </p>
+    </div>
+
+    <br>
+
+    <button class="signup-button">Sign Up</button>
+  </div>
+</main>
